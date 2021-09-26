@@ -15,8 +15,10 @@ public class EnumSwitchTest {
 			break;
 		case FRIDAY: case SATURDAY:
 			System.out.println("It is Friday or Saturday");
+			break;
 		default:
 			System.out.println("It is any other day of the week");
+			break;
 		}
 	}
 

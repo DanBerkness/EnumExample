@@ -9,6 +9,8 @@ public class EnumApplication {
 		tuesday.selectADay();
 		EnumSwitchTest friday = new EnumSwitchTest(Day.FRIDAY);
 		friday.selectADay();
+		EnumSwitchTest saturday = new EnumSwitchTest(Day.SATURDAY);
+		saturday.selectADay();
 	}
 
 }
